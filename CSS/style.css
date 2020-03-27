@@ -91,16 +91,16 @@ div[class^="picture-"]{
 }
 
 .picture-1{
-  background-image: url(../Images/Background/IMG_3948.jpg);
+  background-image: url(https://raw.githubusercontent.com/SideRocketeer0/portfolio/master/Images/Background/IMG_3948.JPG);
 }
 
 .picture-2{
-  background-image: url(../Images/Background/bridge.jpg);
+  background-image: url(https://raw.githubusercontent.com/SideRocketeer0/portfolio/master/Images/Background/bridge.JPG);
   background-position: bottom;
 }
 
 .picture-3{
-  background-image: url(../Images/Background/IMG_3945.jpg);
+  background-image: url(https://raw.githubusercontent.com/SideRocketeer0/portfolio/master/Images/Background/IMG_3945.JPG);
 }
 
 
