@@ -75,9 +75,14 @@ a{
 }
 
 .main-info-section{
+<<<<<<< HEAD
   height: 87.5vh;
 
   background-image: url(../Images/background/IMG_0110.jpg);
+=======
+  height: 80vh;
+  background-image: url(https://raw.githubusercontent.com/SideRocketeer0/portfolio/master/Images/Background/sunrise.JPG);
+>>>>>>> 65d49849f04168088c487307735031b8561cb2b2
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -117,16 +122,20 @@ div[class^="picture-"]{
 }
 
 .picture-1{
-  background-image: url(../Images/Background/IMG_3948.jpg);
+  background-image: url(https://raw.githubusercontent.com/SideRocketeer0/portfolio/master/Images/Background/IMG_3948.JPG);
 }
 
 .picture-2{
+<<<<<<< HEAD
   background-image: url(../Images/Background/IMG_0134.jpg);
+=======
+  background-image: url(https://raw.githubusercontent.com/SideRocketeer0/portfolio/master/Images/Background/bridge.JPG);
+>>>>>>> 65d49849f04168088c487307735031b8561cb2b2
   background-position: bottom;
 }
 
 .picture-3{
-  background-image: url(../Images/Background/IMG_3945.jpg);
+  background-image: url(https://raw.githubusercontent.com/SideRocketeer0/portfolio/master/Images/Background/IMG_3945.JPG);
 }
 
 
