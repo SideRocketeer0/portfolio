@@ -22,8 +22,8 @@ nav ul,
 }
 
 body{
-  /*background-color: #1f1f1f;*/
-    background-color: #ededc5;
+  /*background-color: ##ededc5;*/
+    background-color: #1f1f1f;
 }
 
 header{
@@ -75,11 +75,36 @@ a{
 }
 
 .main-info-section{
-  height: 80vh;
-  background-image: url(../Images/background/sunrise.jpg);
+  height: 87.5vh;
+
+  background-image: url(../Images/background/IMG_0110.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+#skewedRight{
+  position: absolute;
+  bottom: -100%;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background: #1f1f1f;
+  overflow: hidden;
+  transform: skewY(-15deg);
+  transform-origin: top left;
+}
+
+#skewedLeft{
+  position: absolute;
+  bottom: -100%;
+  right: 50%;
+  width: 100%;
+  height: 100%;
+  background: #1f1f1f;
+  overflow: hidden;
+  transform: skewY(15deg);
+  transform-origin: top right;
 }
 
 div[class^="picture-"]{
