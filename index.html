@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/p5.js"></script>
+  <script type="text/javascript" src="JS/particles.js"></script>
   <link rel="stylesheet" type="text/css" href="CSS/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <title>Daniel Portfolio</title>
@@ -26,7 +30,8 @@
 
 
 <img src="" alt="">
-  <div class="container main-info-section">
+  <div class="container main-info-section" id="backdrop">
+
     <div class="text">
       <h1>
         <span>Hi,</span>
@@ -64,16 +69,43 @@
     <img src="Images/pattern2.png" alt="">
   </div>
 
-  <div class="picture-1"></div>
+
 
   <div class="container skills" id="skills">
     <h1>Skills</h1>
-    <p>hellllllllllllllllllllllllllllllllllllo</p>
-    <p>This is where I talk about the MANY skills I have</p>
-    <p>maybe pie chart</p>
+    <div class="skill-container">
+
+    <div class="skill-box">
+      <i class="fab fa-html5 fa-3x"></i>
+      <br>
+      HTML
+    </div>
+    <div class="skill-box">
+      <i class="fab fa-css3-alt fa-3x"></i>
+      <br>
+      CSS
+    </div>
+    <div class="skill-box">
+      <i class="fab fa-js fa-3x"></i>
+      <br>
+      JavaScript
+    </div>
+    <div class="skill-box">
+      <i class="fab fa-react fa-3x"></i>
+      <br>
+      React
+    </div>
+    <div class="skill-box">
+      <i class="fab fa-node-js fa-3x"></i>
+      <br>
+      Node.js
+    </div>
+</div>
+    <br>
+    <br>
+    <p>Cause that is what I do..</p>
 
   </div>
-  <div class="picture-2"></div>
 
 
 <div class="container work" id="work">
@@ -98,7 +130,6 @@
   </div>
 </div>
 
-<div class="picture-3"></div>
 
 <section class="container contact" id="contact">
   <h1>Contact</h1>
@@ -120,6 +151,7 @@
 
 </script>
 <script src="JS/script.js"></script>
+
 
 </body>
 </html>

@@ -35,6 +35,11 @@ header{
 
 .navbar{
   background-color: #181818;
+  padding: 0 100px 0 100px;
+  position: fixed;
+  opacity: 0.94;
+  width: 100vw;
+  z-index: 3;
 }
 
 .profile-image img{
@@ -46,7 +51,7 @@ header{
 /* maybe as a background image?? */
 #profile{
   /*filter: grayscale(30%);*/
-  opacity: 0.94;
+  opacity: 0.3;
 }
 
 header h1,
@@ -56,7 +61,7 @@ header a,
 .skills h1,
 .work h1,
 .contact h1{
-  color: #1f1f1f;
+  color: white;
 }
 
 li{
@@ -74,18 +79,27 @@ a{
   transform: translateY(-50%);
 }
 
+canvas{
+  position: absolute;
+  z-index: -1;
+  left: -15px;
+}
+
 .main-info-section{
 <<<<<<< HEAD
   height: 87.5vh;
+  margin-top: 59px;
 
-  background-image: url(../Images/background/IMG_0110.jpg);
+
+  /*background-image: url(../Images/background/IMG_0110.jpg);
 =======
-  height: 80vh;
-  background-image: url(https://raw.githubusercontent.com/SideRocketeer0/portfolio/master/Images/Background/sunrise.JPG);
->>>>>>> 65d49849f04168088c487307735031b8561cb2b2
+  height: 87.5vh;
+  /*background-image: url(https://raw.githubusercontent.com/SideRocketeer0/portfolio/master/Images/Background/sunrise.JPG);
+>>>>>>> 65d49849f04168088c487307735031b8561cb2b2 */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+
 }
 
 #skewedRight{
@@ -198,6 +212,7 @@ div[class^="picture-"]{
 .about{
   height: 70vh;
   /*margin-top: 100px;*/
+  margin-top: 120px;
 }
 
 .about h1,
@@ -278,8 +293,9 @@ div[class^="picture-"]{
 }
 
 .skills{
-  height: 60vh;
+  height: 70vh;
 }
+
 
 .skills h1,
 .contact h1{
@@ -288,7 +304,20 @@ div[class^="picture-"]{
   opacity: .1;
 }
 
-.skills p{
+.skill-container p{
+  font-size: 1.4rem;
+  color: #BEBEBE;
+  max-width: 800px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+/* this ruins my title, I want the h1 Skills to be on the skewedLeft
+maybe use :not(h1)??*/
+.skills, p{
   font-size: 1.4rem;
   color: #BEBEBE;
   max-width: 800px;
@@ -368,6 +397,13 @@ div.hideCategory{
 
 .contact{
   margin-top: 50px;
+}
+
+.skill-box{
+  display: inline-block;
+  padding: 20px;
+
+
 }
 
 form input,
