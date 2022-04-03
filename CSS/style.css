@@ -1,3 +1,13 @@
+/*
+
+##############################
+Fix F11 problem
+
+Maybe redo whole thing
+
+#############################
+*/
+
 *{
   margin: 0;
   padding: 0;
@@ -24,6 +34,7 @@ nav ul,
 body{
   /*background-color: ##ededc5;*/
     background-color: #1f1f1f;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 header{
@@ -43,7 +54,7 @@ header{
 }
 
 .profile-image img{
-  width: 450px;
+  width: 750px;
   margin-top: 20px;
   margin-right: 90px;
 }
@@ -51,7 +62,7 @@ header{
 /* maybe as a background image?? */
 #profile{
   /*filter: grayscale(30%);*/
-  opacity: 0.3;
+  opacity: 0.98;
 }
 
 header h1,
@@ -296,6 +307,11 @@ div[class^="picture-"]{
   height: 70vh;
 }
 
+/* This is only a temporary fix*/
+#skillsTitle{
+  margin-left: 400px;
+  margin-top: 50px;
+}
 
 .skills h1,
 .contact h1{

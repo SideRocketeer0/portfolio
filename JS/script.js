@@ -34,3 +34,7 @@ getCategory.classList.remove('hideCategory');
 getCategory.classList.add('showCategory');
 
 }
+
+function dont(){
+  alert("Please don't do that!")
+}
